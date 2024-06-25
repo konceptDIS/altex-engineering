@@ -3,7 +3,7 @@
     00 - Home
     01 - Inner Page
         00 - About Us
-        01 - Our History 
+        01 - Our History
 		02 - Services
         03 - Service Detail
         04 - portfolio Detail
@@ -14,7 +14,7 @@
         06 - Team Single
         07 - Contact Us
         08 - Comment Form
-    
+
 ******************************/
 
 /*----------------------------------------*/
@@ -104,7 +104,7 @@ blockquote p {
 .pbmit-element-miconheading-style-1 .swiper-wrapper{
     z-index: 2;
 }
-.pbmit-element-miconheading-style-1 .swiper-horizontal>.swiper-pagination-bullets, 
+.pbmit-element-miconheading-style-1 .swiper-horizontal>.swiper-pagination-bullets,
 .pbmit-element-miconheading-style-1 .swiper-pagination-bullets.swiper-pagination-horizontal{
     text-align: left;
     top: 70px;
@@ -112,7 +112,7 @@ blockquote p {
     right: auto;
     z-index: 6;
     width: auto;
-} 
+}
 .pbmit-element-miconheading-style-1 .swiper-pagination-bullet{
     display: block;
     margin: 18px 0px !important;
@@ -185,10 +185,10 @@ blockquote p {
     right: -80px;
     left: inherit;
     z-index: 0;
-} 
+}
 .testimonial-arrow .swiper-button-next{
     top: 150px;
-} 
+}
 .testimonial-arrow .swiper-button-prev{
     top: 92px;
 }
@@ -269,7 +269,7 @@ blockquote p {
 .blog-right-one{
     padding: 30px 0px 0px 0px;
 }
-/** Homepage 02 **/ 
+/** Homepage 02 **/
 .ihbox-bg-two{
     z-index: 1;
     position: relative;
@@ -465,7 +465,7 @@ blockquote p {
 .appoinment-img-two a{
     margin-left: -128px;
 }
-/** Homepage 03 **/ 
+/** Homepage 03 **/
 .ihbox-bg-three {
     margin-top: -110px;
 }
@@ -581,12 +581,12 @@ blockquote p {
     margin-left: 367px;
     margin-top: 20px;
 }
-.portfolio-ihbox .swiper-horizontal>.swiper-pagination-bullets, 
+.portfolio-ihbox .swiper-horizontal>.swiper-pagination-bullets,
 .portfolio-ihbox .swiper-pagination-bullets.swiper-pagination-horizontal{
     right: 300px;
 }
 .testimonial-bg-three{
-    background-image: url(../images/homepage-3-transparent-bg-01.png); 
+    background-image: url(../images/homepage-3-transparent-bg-01.png);
     border-radius: 50px 0px 0px;
     background-color: var(--pbmit-light-color);
     background-position: 50% 50%;
@@ -602,7 +602,7 @@ blockquote p {
     background-color: var(--pbmit-blackish-color);
 }
 .client-bg-three{
-    background-image: url(../images/homepage-3-demo-3-bg-01.jpg); 
+    background-image: url(../images/homepage-3-demo-3-bg-01.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -651,15 +651,15 @@ blockquote p {
 }
 
 /*----------------------------------------*/
-/*01 - Inner Page 
+/*01 - Inner Page
 /*----------------------------------------*/
 /** 00  About Us **/
 .pbmit-static-box-style-1-dots{
     position: relative;
 }
-.pbmit-static-box-style-1-dots .swiper-horizontal>.swiper-pagination-bullets, 
-.pbmit-static-box-style-1-dots .swiper-pagination-bullets.swiper-pagination-horizontal, 
-.pbmit-static-box-style-1-dots .swiper-pagination-custom, 
+.pbmit-static-box-style-1-dots .swiper-horizontal>.swiper-pagination-bullets,
+.pbmit-static-box-style-1-dots .swiper-pagination-bullets.swiper-pagination-horizontal,
+.pbmit-static-box-style-1-dots .swiper-pagination-custom,
 .pbmit-static-box-style-1-dots .swiper-pagination-fraction {
     right: -40px;
     left: inherit;
@@ -723,7 +723,7 @@ blockquote p {
     padding-right: 70px;
     padding-left: 15px;
 }
-.pbmit-ourhistory-right .label, 
+.pbmit-ourhistory-right .label,
 .pbmit-ourhistory-right .pbmit-timeline-image {
     margin-bottom: 30px;
     display: none;
@@ -961,9 +961,9 @@ blockquote p {
     padding: 100px;
     background-color: var(--pbmit-light-color);
 }
-.team-details-contact .form-control, 
+.team-details-contact .form-control,
 .team-details-contact .form-select{
-    background-color: var(--pbmit-white-color);  
+    background-color: var(--pbmit-white-color);
     margin-bottom: 2px;
 }
 .team-details-contact .row.gx-1 {
@@ -1296,7 +1296,7 @@ blockquote p {
 .post-navigation.nav-links .nav-previous {
     margin-right: auto!important;
 }
-.pbmit-portfolio-single .post-navigation.nav-links .nav-next, 
+.pbmit-portfolio-single .post-navigation.nav-links .nav-next,
 .pbmit-portfolio-single .post-navigation.nav-links .nav-previous {
     width: unset;
 }
@@ -1332,7 +1332,7 @@ blockquote p {
     -o-transform: translateX(0) translateY(-50%);
     transform: translateX(0) translateY(-50%);
 }
-.nav-links .nav-next .pbmit-portfolio-nav-icon i, 
+.nav-links .nav-next .pbmit-portfolio-nav-icon i,
 .nav-links .nav-previous .pbmit-portfolio-nav-icon i {
     width: 40px;
     height: 40px;
@@ -1404,16 +1404,16 @@ blockquote p {
 }
 .blog-right-col{
     flex: 0 0 67%;
-    max-width: 67%; 
+    max-width: 67%;
 	padding: 80px 15px;
 }
 .blog-left-col{
     flex: 0 0 33%;
     max-width: 33%;
-	padding: 80px 15px; 
+	padding: 80px 15px;
 }
 .blog-details .pbmit-featured-wrapper {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 .pbmit-title-bar-wrapper.single-blog .pbmit-tbar-title{
     font-size: 60px;
@@ -1583,9 +1583,9 @@ blockquote p {
 .pbmit-blog-classic .pbmit-read-more-link {
     margin-top: 30px;
 }
-.pbmit-blog-classic-inner .pbmit-read-more-link a, 
-.pbmit-pricing-table-box .pbmit-ptable-btn a, 
-.pbmit-service-style-1 a.btn-arrow, 
+.pbmit-blog-classic-inner .pbmit-read-more-link a,
+.pbmit-pricing-table-box .pbmit-ptable-btn a,
+.pbmit-service-style-1 a.btn-arrow,
 .pbmit-service-style-4 a.btn-arrow {
     padding: 14px 40px 14px 26px;
     border: 2px solid #eee;
@@ -1614,7 +1614,7 @@ blockquote p {
     background-color: var(--pbmit-global-color) !important;
 	border: none !important;
 }
-.sidebar .widget{ 
+.sidebar .widget{
     background-color: var(--pbmit-light-color);
     padding: 40px 35px;
     margin-bottom: 30px;
@@ -1625,7 +1625,7 @@ blockquote p {
 }
 .widget .search-form .search-field {
     display: block;
-    width: 100%;    
+    width: 100%;
 	height: 60px;
     line-height: 60px;
     font-size: 13px;
@@ -1873,7 +1873,7 @@ figure.block-gallery {
     padding: 0;
     margin: 0;
 }
-.blocks-gallery-grid:not(.has-nested-images), 
+.blocks-gallery-grid:not(.has-nested-images),
 .block-gallery:not(.has-nested-images) {
     display: flex;
     flex-wrap: wrap;
@@ -2161,7 +2161,7 @@ figure.block-gallery {
 }
 .comment-form form .form-group:last-child{
     margin-bottom: 10px;
-} 
+}
 .comment-form .pbmit-btn{
     padding: 20px 30px;
 }
@@ -2216,7 +2216,7 @@ figure.block-gallery {
     margin-left: -100px;
     background-color: var(--pbmit-light-color);
 }
-.contact-form-single .col-sm-6 , 
+.contact-form-single .col-sm-6 ,
 .contact-form-single .col-md-12 {
     padding: 0 1px;
 }
@@ -2303,4 +2303,13 @@ textarea.form-control{
 }
 .form-style-2  ::placeholder{
     color: rgba(0,0,0,.5);
+}
+
+.two-lines {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }

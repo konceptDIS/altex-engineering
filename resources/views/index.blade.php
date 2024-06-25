@@ -11,16 +11,27 @@
                         <div class="about-single-one">
                             <div class="pbmit-heading-subheading">
                                 <h4 class="pbmit-subtitle">ABOUT OUR INDUSTRY</h4>
-                                <h2 class="pbmit-title">We are largest independent sit manufacturing</h2>
+                                <h2 class="pbmit-title">We understand the engineering industry</h2>
                             </div>
-                            <div class="about-us-single-one">
-                                <ul class="list-group list-group-borderless">
+                            <div class="about-us-single-one" style="margin-bottom: 100px">
+                                <p style="text-align: justify">
+                                    The engineering industry is faced with several challenges that impact the sustained operations of companies in the industry. The core challenge facing the industry relates to the climate change debacle. Particulate matter emerging from large engineering firms are leading contributor to environmental pollution. This has informed the need for eco-conscious engineers and practices who are able to reduce the environmental imprints of engineering practices. This calls for the adoption of renewable energy and best environmentally friendly approach to engineering operations.... <a href="{{route('about')}}">read more</a>
+                                </p>
+                                {{-- <ul class="list-group list-group-borderless">
                                     <li class="list-group-item"> Nsectetur adipisicing elit, sed do eiusmod Tempord</li>
                                     <li class="list-group-item"> Labore et dolore magna aliqua ut enim</li>
                                     <li class="list-group-item"> Veniam quis nostrud exercitation ullamco laboris</li>
-                                </ul>
+                                </ul> --}}
                                 <div class="progressbar">
-                                    <span class="progress-label">Quality Control System</span>
+                                    <span class="progress-label">Carbon Footprint</span>
+                                    <div class="progress progress-lg progress-percent-bg">
+                                        <div class="progress-bar aos aos-init aos-animate" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                        </div>
+                                        <span class="progress-percent" style=" right:330px">30%</span>
+                                    </div>
+                                </div>
+                                <div class="progressbar">
+                                    <span class="progress-label">Renewable Energy Projects</span>
                                     <div class="progress progress-lg progress-percent-bg">
                                         <div class="progress-bar aos aos-init aos-animate" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
                                         </div>
@@ -30,9 +41,9 @@
                                 <div class="progressbar">
                                     <span class="progress-label">Highly Professional Staff</span>
                                     <div class="progress progress-lg progress-percent-bg">
-                                        <div class="progress-bar aos aos-init aos-animate" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                        <div class="progress-bar aos aos-init aos-animate" data-aos="slide-right" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
                                         </div>
-                                        <span class="progress-percent" style=" right:100px">80%</span>
+                                        <span class="progress-percent" style=" right:50px">90%</span>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +51,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="about-us-img-one">
-                            <img src="images/homepage-1-demo1-img-01.jpg" class="img-fluid" alt="">
+                            <img src="images/home-01.png" class="img-fluid" alt="">
                             <div class="button-wrapper">
                                 <a href="#" class="button-link">
                                     <span class="button-content-wrapper">
@@ -156,20 +167,22 @@
                                 <div class="pbminfotech-post-item">
                                     <div class="pbmit-service-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="images/service-service-new-01.jpg" class="img-fluid" alt="">
+                                            <img src="images/bg-2.png" class="img-fluid" alt="Civil & Building Engineering" style="height: 253.3px;object-fit: cover;width: 100%;">
                                         </div>
                                     </div>
                                     <div class="pbminfotech-box-content">
                                         <div class="pbminfotech-box-content-inner">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <h3 class="pbmit-service-title">
-                                                    <a href="services-details.html">Mechanical Constructions</a></h3>
+                                                    <a href="services-details.html">Civil & Building Engineering</a></h3>
                                                 <div class="pbmit-service-icon-wrapper">
                                                     <i class="pbmit-industrey-icon pbmit-industrey-icon-drilling-rig"></i>
                                                 </div>
                                             </div>
                                             <div class="pbmit-service-content">
-                                                <p>We serve our clients top level of trusted advisor for their business &amp; marketing progress.</p>
+                                                <p class="two-lines">
+                                                    Our services cover the design and construction of small, medium and large-scale projects ranging from office and business complexes, residential estates, and parks.
+                                                </p>
                                             </div>
                                             <div class="pbmit-service-btn">
                                                 <a class="btn-arrow" href="services-details.html"><span>View More</span></a>
@@ -185,50 +198,22 @@
                                 <div class="pbminfotech-post-item">
                                     <div class="pbmit-service-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="images/service-service-new-02.jpg" class="img-fluid" alt="">
+                                            <img src="images/alternative-energy.png" class="img-fluid" alt="" style="height: 253.3px;object-fit: cover;width: 100%;">
                                         </div>
                                     </div>
                                     <div class="pbminfotech-box-content">
                                         <div class="pbminfotech-box-content-inner">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <h3 class="pbmit-service-title">
-                                                    <a href="services-details.html">Product Design &amp; Manufacture</a></h3>
+                                                    <a href="services-details.html">Alternative Energy Solutions</a></h3>
                                                 <div class="pbmit-service-icon-wrapper">
                                                     <i class="pbmit-industrey-icon pbmit-industrey-icon-coal"></i>
                                                 </div>
                                             </div>
                                             <div class="pbmit-service-content">
-                                                <p>We serve our clients top level of trusted advisor for their business &amp; marketing progress.</p>
-                                            </div>
-                                            <div class="pbmit-service-btn">
-                                                <a class="btn-arrow" href="services-details.html"><span>View More</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Slide3 -->
-                            <article class="pbmit-service-style-1">
-                                <div class="pbminfotech-post-item">
-                                    <div class="pbmit-service-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="images/service-service-new-03.jpg" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-content-inner">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="pbmit-service-title">
-                                                    <a href="services-details.html">Research and Manufacture</a>
-                                                </h3>
-                                                <div class="pbmit-service-icon-wrapper">
-                                                    <i class="pbmit-industrey-icon pbmit-industrey-icon-tank"></i>
-                                                </div>
-                                            </div>
-                                            <div class="pbmit-service-content">
-                                                <p>We serve our clients top level of trusted advisor for their business &amp; marketing progress.</p>
+                                                <p class="two-lines">
+                                                    We provide engineering services that are ecofriendly, cost intensive, and characterized by zero emissions and zero radiation.
+                                                </p>
                                             </div>
                                             <div class="pbmit-service-btn">
                                                 <a class="btn-arrow" href="services-details.html"><span>View More</span></a>
@@ -251,14 +236,14 @@
                                         <div class="pbminfotech-box-content-inner">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <h3 class="pbmit-service-title">
-                                                    <a href="services-details.html">Petroleum &amp; Gas Engineering</a>
+                                                    <a href="services-details.html">Oil &amp; Gas Engineering</a>
                                                 </h3>
                                                 <div class="pbmit-service-icon-wrapper">
                                                     <i class="pbmit-industrey-icon pbmit-industrey-icon-cargo-ship"></i>
                                                 </div>
                                             </div>
                                             <div class="pbmit-service-content">
-                                                <p>We serve our clients top level of trusted advisor for their business &amp; marketing progress.</p>
+                                                <p class="two-lines">We offer expert services that enhance the supply chain of oil and gas. Our services support plant safety, productivity, and efficiency while reducing production costs.</p>
                                             </div>
                                             <div class="pbmit-service-btn">
                                                 <a class="btn-arrow" href="services-details.html"><span>View More</span></a>
@@ -281,13 +266,15 @@
                                         <div class="pbminfotech-box-content-inner">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <h3 class="pbmit-service-title">
-                                                    <a href="services-details.html">Improve Production Processes</a></h3>
+                                                    <a href="services-details.html">Sustainable Water Solution</a></h3>
                                                 <div class="pbmit-service-icon-wrapper">
                                                     <i class="pbmit-industrey-icon pbmit-industrey-icon-factory-2"></i>
                                                 </div>
                                             </div>
                                             <div class="pbmit-service-content">
-                                                <p>We serve our clients top level of trusted advisor for their business &amp; marketing progress.</p>
+                                                <p class="two-lines">
+                                                    With our team of world class experts, we profer a wide range of integrated water treatment solutions that efficiently treat raw process and waste water to ensure the sustainable supply of safe drinking water for numerous communities.
+                                                </p>
                                             </div>
                                             <div class="pbmit-service-btn">
                                                 <a class="btn-arrow" href="services-details.html"><span>View More</span></a>
@@ -310,13 +297,15 @@
                                         <div class="pbminfotech-box-content-inner">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <h3 class="pbmit-service-title">
-                                                    <a href="services-details.html">Mobile Plant Maintenance</a></h3>
+                                                    <a href="services-details.html">Advisory &amp; Consultancy</a></h3>
                                                 <div class="pbmit-service-icon-wrapper">
                                                     <i class="pbmit-industrey-icon pbmit-industrey-icon-engineer"></i>
                                                 </div>
                                             </div>
                                             <div class="pbmit-service-content">
-                                                <p>We serve our clients top level of trusted advisor for their business &amp; marketing progress.</p>
+                                                <p class="two-lines">
+                                                    We offer a range of innovative consulting and advisory services in engineering that enhance the value of our valued clients in areas such as quality management, sourcing solutions, operations management and maintenance, business development, product design and development.
+                                                </p>
                                             </div>
                                             <div class="pbmit-service-btn">
                                                 <a class="btn-arrow" href="services-details.html"><span>View More</span></a>
@@ -339,42 +328,15 @@
                                         <div class="pbminfotech-box-content-inner">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <h3 class="pbmit-service-title">
-                                                    <a href="services-details.html">Maintenance and Repairing</a></h3>
+                                                    <a href="services-details.html">Rural Electrification</a></h3>
                                                 <div class="pbmit-service-icon-wrapper">
                                                     <i class="pbmit-industrey-icon pbmit-industrey-icon-battery-1"></i>
                                                 </div>
                                             </div>
                                             <div class="pbmit-service-content">
-                                                <p>We serve our clients top level of trusted advisor for their business &amp; marketing progress.</p>
-                                            </div>
-                                            <div class="pbmit-service-btn">
-                                                <a class="btn-arrow" href="services-details.html"><span>View More</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Slide8 -->
-                            <article class="pbmit-service-style-1">
-                                <div class="pbminfotech-post-item">
-                                    <div class="pbmit-service-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="images/service-service-new-08.jpg" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-content-inner">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <h3 class="pbmit-service-title">
-                                                    <a href="services-details.html">Comprehensive Logits Service</a></h3>
-                                                <div class="pbmit-service-icon-wrapper">
-                                                    <i class="pbmit-industrey-icon pbmit-industrey-icon-truck"></i>
-                                                </div>
-                                            </div>
-                                            <div class="pbmit-service-content">
-                                                <p>We serve our clients top level of trusted advisor for their business &amp; marketing progress.</p>
+                                                <p class="two-lines">
+                                                    We provide integrated electricity to rural and remote areas of grid to support economic activities and social development.
+                                                </p>
                                             </div>
                                             <div class="pbmit-service-btn">
                                                 <a class="btn-arrow" href="services-details.html"><span>View More</span></a>
@@ -397,14 +359,16 @@
                                         <div class="pbminfotech-box-content-inner">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <h3 class="pbmit-service-title">
-                                                    <a href="services-details.html">Machine learning Analysis</a>
+                                                    <a href="services-details.html">Procurement Management</a>
                                                 </h3>
                                                 <div class="pbmit-service-icon-wrapper">
                                                     <i class="pbmit-industrey-icon pbmit-industrey-icon-control-panel"></i>
                                                 </div>
                                             </div>
                                             <div class="pbmit-service-content">
-                                                <p>We serve our clients top level of trusted advisor for their business &amp; marketing progress.</p>
+                                                <p class="two-lines">
+                                                    We have referenced experience in providing supply chain value through offering cost-efficient materials and services to our valued clients.
+                                                </p>
                                             </div>
                                             <div class="pbmit-service-btn">
                                                 <a class="btn-arrow" href="services-details.html"><span>View More</span></a>
@@ -425,7 +389,7 @@
                                 </div>
                                 <div class="pbmit-ihbox-contents">
                                     <h2 class="pbmit-element-title">
-                                        As a app web crawler expert, I help <a href="#">organizations adjust to the expanding<br> </a> significance of internet promoting.
+                                        Need any of our services? We respond quickly. <a href="#">Contact Us<br> </a> today.
                                     </h2>
                                 </div>
                             </div>
@@ -458,7 +422,7 @@
                                 <div class="pbmit-sbox-icon-wrapper"><i class="fas fa-star"></i></div>
                                 <div class="pbmit-fld-wrap">
                                     <h4 class="pbmit-fid-inner">
-                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="6154" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">6154</span>
+                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="12" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">12</span>
                                         <span class="pbmit-fid"></span>
                                     </h4>
                                     <div class="pbmit-fid-contents">
@@ -474,11 +438,11 @@
                                 <div class="pbmit-sbox-icon-wrapper"><i class="fas fa-star"></i></div>
                                 <div class="pbmit-fld-wrap">
                                     <h4 class="pbmit-fid-inner">
-                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="1124" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">1124</span>
+                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="50" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">50</span>+
                                         <span class="pbmit-fid"></span>
                                     </h4>
                                     <div class="pbmit-fid-contents">
-                                        <div class="pbmit-fid-title"><span>Great Experienced <br> Team Member</span></div>
+                                        <div class="pbmit-fid-title"><span>Experienced <br> Team Members</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -490,7 +454,7 @@
                                 <div class="pbmit-sbox-icon-wrapper"><i class="fas fa-star"></i></div>
                                 <div class="pbmit-fld-wrap">
                                     <h4 class="pbmit-fid-inner">
-                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="687" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">687</span>
+                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="60" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">70</span>+
                                         <span class="pbmit-fid"></span>
                                     </h4>
                                     <div class="pbmit-fid-contents">
@@ -506,11 +470,11 @@
                                 <div class="pbmit-sbox-icon-wrapper"><i class="fas fa-star"></i></div>
                                 <div class="pbmit-fld-wrap">
                                     <h4 class="pbmit-fid-inner">
-                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="236" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">236</span>
+                                        <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="15" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">14</span>
                                         <span class="pbmit-fid"></span>
                                     </h4>
                                     <div class="pbmit-fid-contents">
-                                        <div class="pbmit-fid-title"><span>Winning Universal <br> Five Awards</span></div>
+                                        <div class="pbmit-fid-title"><span>Universal <br> Awards</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -525,20 +489,23 @@
                                 <!-- Slide1 -->
                                 <article class="pbmit-ele pbmit-ele-static-box pbmit-static-box-style-1">
                                     <div class="pbmit-imgbox">
-                                        <img src="images/homepage-1-staticbox-01.jpg" alt="Design Product ">
+                                        <img src="images/olympic-stadium.webp" alt="Constructed Olympic Sized Stadium" style="height: 420px; object-fit:cover;">
                                     </div>
                                     <div class="pbmit-contentbox">
                                         <div class="pbminfotech-box-title">
-                                            <h4>Design Product </h4>
+                                            <h4>Constructed Olympic Sized Stadium</h4>
                                         </div>
                                         <div class="pbminfotech-static-box-desc">
-                                            Consectetur adipiscing elit sed do tempor labor dolore magna aliqua quis ipsum suspendisse ultrices gravida commodo.
-                                            <ul>
-                                                <li>Consectetur adipiscing elit sed</li>
-                                                <li>Do Tempor labor dolore magna</li>
-                                                <li>suspendisse ultrices Gravida</li>
-                                                <li>commodo viverra maecenas</li>
-                                            </ul>
+                                            <p>
+                                                <strong><u>Project Title:</u> </strong> Construction of Olympic Standard Size Stadium at the Nigerian Maritime University, Delta State.
+                                            </p>
+                                            <p>
+                                                <strong><u>Client:</u> </strong> Nigerian Maritime Administration and
+                                                Safety Agency.
+                                            </p>
+                                            <p>
+                                                <strong><u>Date:</u> </strong> September, 2013.
+                                            </p>
                                         </div>
                                     </div>
                                 </article>
@@ -547,20 +514,22 @@
                                 <!-- Slide2 -->
                                 <article class="pbmit-ele pbmit-ele-static-box pbmit-static-box-style-1">
                                     <div class="pbmit-imgbox">
-                                        <img src="images/homepage-1-staticbox-02.jpg" alt="Fabric Product">
+                                        <img src="images/construction-plans.jpg" alt="Constructed an Amenity Ward" style="height: 420px; object-fit:cover;">
                                     </div>
                                     <div class="pbmit-contentbox">
                                         <div class="pbminfotech-box-title">
-                                            <h4>Fabric Product</h4>
+                                            <h4>Constructed an Amenity Ward</h4>
                                         </div>
                                         <div class="pbminfotech-static-box-desc">
-                                            Consectetur adipiscing elit sed do tempor labor dolore magna aliqua quis ipsum suspendisse ultrices gravida commodo.
-                                            <ul>
-                                                <li>Consectetur adipiscing elit sed</li>
-                                                <li>Do Tempor labor dolore magna</li>
-                                                <li>suspendisse ultrices Gravida</li>
-                                                <li>commodo viverra maecenas</li>
-                                            </ul>
+                                            <p>
+                                                <strong><u>Project Title:</u> </strong> Construction of Amenity Ward at Federal Medical Centre, Jalingo.
+                                            </p>
+                                            <p>
+                                                <strong><u>Client:</u> </strong> Federal Medical Centre, Jalingo.
+                                            </p>
+                                            <p>
+                                                <strong><u>Date:</u> </strong> October, 2011.
+                                            </p>
                                         </div>
                                     </div>
                                 </article>
@@ -569,20 +538,23 @@
                                 <!-- Slide3 -->
                                 <article class="pbmit-ele pbmit-ele-static-box pbmit-static-box-style-1">
                                     <div class="pbmit-imgbox">
-                                        <img src="images/homepage-1-staticbox-03.jpg" alt="Product Info">
+                                        <img src="images/homepage-1-staticbox-03.jpg" alt="Electrifed 3 towns">
                                     </div>
                                     <div class="pbmit-contentbox">
                                         <div class="pbminfotech-box-title">
-                                            <h4>Product Info</h4>
+                                            <h4>Electrifed 3 towns</h4>
                                         </div>
                                         <div class="pbminfotech-static-box-desc">
-                                            Consectetur adipiscing elit sed do tempor labor dolore magna aliqua quis ipsum suspendisse ultrices gravida commodo.
-                                            <ul>
-                                                <li>Consectetur adipiscing elit sed</li>
-                                                <li>Do Tempor labor dolore magna</li>
-                                                <li>suspendisse ultrices Gravida</li>
-                                                <li>commodo viverra maecenas</li>
-                                            </ul>
+                                            <p>
+                                                <strong><u>Project Title:</u> </strong> Rural Electrification Projects NOS. 1-5 In Okobo L.G.A, NOS 7-14IN Oruk Anam L.G.Aand NOS 8-10 In
+                                                Obot Akara L.G.A.
+                                            </p>
+                                            <p>
+                                                <strong><u>Client:</u> </strong> Finance and General-Purpose Committee.
+                                            </p>
+                                            <p>
+                                                <strong><u>Date:</u> </strong> May, 2012.
+                                            </p>
                                         </div>
                                     </div>
                                 </article>
@@ -618,7 +590,7 @@
                                     </li>
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link" data-bs-toggle="tab" href="#tab-2-3" aria-selected="false" role="tab" tabindex="-1">
-                                            <span>OUR HISTORY</span>
+                                            <span>OUR CORE VALUES</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -633,12 +605,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="pbmit-tab-content-wrapper">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.
-                                                        <ul class="list-group list-group-borderless">
-                                                            <li class="list-group-item">Nsectetur adipisicing eiusmod Tempor</li>
-                                                            <li class="list-group-item">Labore et dolore magna aliqua enim</li>
-                                                            <li class="list-group-item">Veniam quis nostrud ullamco laboris</li>
-                                                        </ul>
+                                                        To consistently provide our clients with cost effective solutions in project implementation and service delivery by utilizing advanced technology, and international best practices.
                                                     </div>
                                                 </div>
                                             </div>
@@ -654,12 +621,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="pbmit-tab-content-wrapper">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.
-                                                        <ul class="list-group list-group-borderless">
-                                                            <li class="list-group-item">Nsectetur adipisicing eiusmod Tempor</li>
-                                                            <li class="list-group-item">Labore et dolore magna aliqua enim</li>
-                                                            <li class="list-group-item">Veniam quis nostrud ullamco laboris</li>
-                                                        </ul>
+                                                        To be the leading engineering, construction and energy solution company, providing unparalleled services to satisfy our partners and clients locally and internationally.
                                                     </div>
                                                 </div>
                                             </div>
@@ -675,11 +637,23 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="pbmit-tab-content-wrapper">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.
+                                                        Our operations at AESL are driven by 5Cs
                                                         <ul class="list-group list-group-borderless">
-                                                            <li class="list-group-item">Nsectetur adipisicing eiusmod Tempor</li>
-                                                            <li class="list-group-item">Labore et dolore magna aliqua enim</li>
-                                                            <li class="list-group-item">Veniam quis nostrud ullamco laboris</li>
+                                                            <li class="list-group-item">
+                                                                <strong>Commitment</strong>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <strong>Collaboration</strong>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <strong>Cutting-Edge Technology</strong>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <strong>Competitive Advantage</strong>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <strong>Client Satisfaction</strong>
+                                                            </li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -692,7 +666,7 @@
                     </div>
                     <div class="col-xl-5 col-md-12">
                         <div class="tab-img">
-                            <img src="images/homepage-1-transparent-img-01.png" class="img-fluid" alt="">
+                            <img src="images/home-02.png" class="img-fluid" alt="" style="height: 700px">
                             <div class="pbmit-ihbox pbmit-ihbox-style-4">
                                 <div class="pbmit-ihbox-box">
                                     <div class="pbmit-ihbox-headingicon d-flex align-items-center">
@@ -715,7 +689,7 @@
         <!-- Tab End -->
 
         <!-- Portfolio Start -->
-        <section class="section-lg">
+        {{-- <section class="section-lg">
             <div class="container-fluid">
                 <div class="pbmit-heading-subheading text-center">
                     <h4 class="pbmit-subtitle">RECENT PROJECT'S GALLERY</h4>
@@ -969,11 +943,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- Portfolio End -->
 
         <!-- Testimonial Start -->
-        <section class="testimonial-bg-one">
+        <section class="testimonial-bg-one" style="margin-top: 100px">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-md-5">
@@ -1290,7 +1264,7 @@
         <!-- Appoinment End -->
 
         <!-- Blog Start -->
-        <section class="section-mdb">
+        {{-- <section class="section-mdb">
             <div class="container">
                 <div class="pbmit-heading-subheading text-center">
                     <h4 class="pbmit-subtitle">OUR LATEST NEWS</h4>
@@ -1426,7 +1400,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- Blog End -->
 
     </div>
