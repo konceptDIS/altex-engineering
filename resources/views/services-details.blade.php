@@ -18,11 +18,11 @@
       <!-- Flaticon -->
       <link rel="stylesheet" href="css/css-flaticon.css">
       <!-- Base Icons -->
-      <link rel="stylesheet" href="css/css-pbminfotech-base-icons.css"> 
+      <link rel="stylesheet" href="css/css-pbminfotech-base-icons.css">
       <!-- Swiper -->
       <link rel="stylesheet" href="css/css-swiper.min.css">
       <!-- Magnific -->
-      <link rel="stylesheet" href="css/css-magnific-popup.css"> 
+      <link rel="stylesheet" href="css/css-magnific-popup.css">
       <!-- Shortcode CSS -->
       <link rel="stylesheet" href="css/css-shortcode.css">
       <!-- Base CSS -->
@@ -55,31 +55,31 @@
 						   <div class="pbmit-header-info ml-auto">
 							  <div class="pbmit-header-info-inner">
 								 <div class="pbmit-header-box pbmit-header-box-1">
-									<a href="#"> 
+									<a href="#">
 										<span class="pbmit-header-box-icon">
 											<i class="pbmit-industrey-icon pbmit-industrey-icon-world"></i>
-										</span> 
+										</span>
 										<span class="pbmit-header-box-title">Our Location</span>
 										<span class="pbmit-header-box-content">23 Beverley Brooklyn, NY</span>
-									</a> 
+									</a>
 								 </div>
 								 <div class="pbmit-header-box pbmit-header-box-2">
-									<a href="#"> 
+									<a href="#">
 										<span class="pbmit-header-box-icon">
 											<i class="pbmit-industrey-icon pbmit-industrey-icon-send"></i>
-										</span> 
+										</span>
 										<span class="pbmit-header-box-title">E-mail Address</span>
 										<span class="pbmit-header-box-content"><span class="__cf_email__" data-cfemail="b3daddd7c6c0c7c1d6cadaddd5dcf3d4ded2dadf9dd0dcde">[email&nbsp;protected]</span></span>
-									</a> 
+									</a>
 								 </div>
 								 <div class="pbmit-header-box pbmit-header-box-3">
-									<a href="#"> 
+									<a href="#">
 										<span class="pbmit-header-box-icon">
 											<i class="pbmit-industrey-icon pbmit-industrey-icon-telephone"></i>
-										</span> 
+										</span>
 										<span class="pbmit-header-box-title">Hot Line</span>
-										<span class="pbmit-header-box-content">+(123) 1234-567-8901</span>
-									</a> 
+										<span class="pbmit-header-box-content">+(123) 1234-567-8902</span>
+									</a>
 								 </div>
 							  </div>
 						   </div>
@@ -101,7 +101,7 @@
 									<div class="site-navigations">
 										<nav class="main-menu navbar-expand-xl navbar-light">
 											<div class="navbar-header">
-												<!-- Toggle Button --> 
+												<!-- Toggle Button -->
 												<button class="navbar-toggler" type="button">
 													<i class="pbmit-base-icon-menu-1"></i>
 												</button>
@@ -210,7 +210,7 @@
 		<!-- Page Content -->
 		<div class="page-content">
 
-            <!-- service Details --> 
+            <!-- service Details -->
             <section class="service-details-section">
 				<div class="container">
 					<div class="row">
@@ -234,15 +234,15 @@
 								</aside>
 								<aside class="widget post-list">
 									<div class="download">
-										<div class="item-download"> 
+										<div class="item-download">
 										   <a href="#" target="_blank" rel="noopener noreferrer">
-											<i class="pbmit-base-icons pbmit-base-icon-pdf"></i> Download our Brochures 
+											<i class="pbmit-base-icons pbmit-base-icon-pdf"></i> Download our Brochures
 											<i class="pbmit-base-icons pbmit-rightpostn pbmit-base-icon-download"></i>
 										</a>
 										</div>
 										<div class="item-download">
 										   <a href="#" target="_blank" rel="noopener noreferrer">
-											<i class="pbmit-base-icons  pbmit-base-icon-doc-text-inv"></i>  Our company details  
+											<i class="pbmit-base-icons  pbmit-base-icon-doc-text-inv"></i>  Our company details
 											<i class="pbmit-base-icons pbmit-rightpostn pbmit-base-icon-download"></i>
 										</a>
 										</div>
@@ -362,7 +362,7 @@
 												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 												HOW I CAN CONTACT WITH YOUR HANDYMAN?
 												</button>
-											</h2> 
+											</h2>
 											<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
 												<div class="accordion-body">
 													<div class="row">
@@ -374,8 +374,8 @@
 														</div>
 													</div>
 												</div>
-											</div>                         
-										</div>                           
+											</div>
+										</div>
 									</div>
 								</div>
 								<div class="service-team">
@@ -626,13 +626,13 @@
 								<div class="menu-quick-links-container">
 									<ul id="pbmit-footer-menu" class="pbmit-footer-menu">
 										<li class="menu-item menu-item-type-custom">
-											<a href="contact-us.html">Where to Find Us</a> 
+											<a href="contact-us.html">Where to Find Us</a>
 										</li>
 										<li class="menu-item menu-item-type-custom">
-											<a href="contact-us.html">Terms of Payment</a> 
+											<a href="contact-us.html">Terms of Payment</a>
 										</li>
 										<li class="menu-item menu-item-type-custom">
-											<a href="contact-us.html">Stats Element</a> 
+											<a href="contact-us.html">Stats Element</a>
 										</li>
 									</ul>
 									Copyright &copy; 2022 <a href="index.html">Industrey Demo1</a>, All Rights Reserved.
@@ -666,19 +666,19 @@
 								</ul>
 							</div>
 						</div>
-					</div>	
+					</div>
 				</div>
-			</div>	
+			</div>
 		</footer>
 		<!-- footer End -->
-         
+
 	</div>
 	<!-- Page Wrapper End -->
 
 	<!-- Search Box Start Here -->
 	<div class="pbmit-search-overlay">
 		<div class="pbmit-icon-close"></div>
-		<div class="pbmit-search-outer"> 
+		<div class="pbmit-search-outer">
 			<form class="pbmit-site-searchform">
 				<input type="search" class="form-control field searchform-s" name="s" placeholder="Search &hellip;">
 				<button type="submit">
@@ -696,7 +696,7 @@
       <!-- Popper JS -->
       <script src="js/2683-js-popper.min.js"></script>
       <!-- Bootstrap JS -->
-      <script src="js/1719-js-bootstrap.min.js"></script> 
+      <script src="js/1719-js-bootstrap.min.js"></script>
       <!-- jquery Waypoints JS -->
       <script src="js/8250-js-jquery.waypoints.min.js"></script>
       <!-- jquery Appear JS -->
@@ -708,9 +708,9 @@
       <!-- Magnific JS -->
       <script src="js/3997-js-jquery.magnific-popup.min.js"></script>
       <!-- Circle Progress JS -->
-      <script src="js/7837-js-circle-progress.js"></script>  
+      <script src="js/7837-js-circle-progress.js"></script>
       <!-- Scripts JS -->
-      <script src="js/3391-js-scripts.js"></script>    
-	  
+      <script src="js/3391-js-scripts.js"></script>
+
    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'89749389eddd08a5',t:'MTcxODk3ODk2Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
