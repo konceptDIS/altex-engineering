@@ -19,6 +19,13 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about-us');
 })->name('about');
+Route::get('/services', function () {
+    return view('services-details');
+})->name('services');
 Route::get('/contact', function () {
     return view('contact-us');
 })->name('contact');
+
+Route::get('/alternative-energy', function () {
+    return view('services.alternative-energy');
+})->name('services.1');

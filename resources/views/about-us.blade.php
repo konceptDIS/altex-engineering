@@ -13,7 +13,7 @@
                 </div>
                 <div class="pbmit-breadcrumb">
                     <div class="pbmit-breadcrumb-inner">
-                        <span><a title="" href="index.html" class="home"><span>INDUSTREY</span></a></span>
+                        <span><a title="" href="index.html" class="home"><span>HOME</span></a></span>
                         <span class="sep"><i class="pbmit-base-icon-angle-double-right"></i></span>
                         <span><span class="post-root post post-post current-item">ABOUT US</span></span>
                     </div>
@@ -26,7 +26,7 @@
 <!-- Page Content -->
 <div class="page-content">
     <!-- About Us Start -->
-    <section class="section-md">
+    <section class="section-md about-section-1">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-md-12">
@@ -47,10 +47,14 @@
                 <div class="col-xl-6 col-md-12">
                     <div class="pbmit-element-miconheading-style-13 ">
                         <div class="pbmit-heading-subheading">
-                            <h4 class="pbmit-subtitle">ABOUT OUR INDUSTRY</h4>
-                            <h2 class="pbmit-title">We are largest independent sit manufacturing company</h2>
+                            <h4 class="pbmit-subtitle">WHO WE ARE</h4>
+                            <h2 class="pbmit-title">We provide tailor made services.</h2>
                         </div>
-                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam.</p>
+                        <p style="text-align: justify;">Altex Engineering Services Limited (AESL) is a versatile company that provides world-class services in Construction, Project/Facility Management and General Services. Informed by the need to provide vast, knowledgeable, and practical solutions to identified challenges in our chosen industries. Our services are tailored to meet the specific needs of clients.
+                        </p>
+                        <p style="text-align: justify;">
+                            Our team of experienced, qualified, and committed experts drawn from key sectors of the engineering industry positions us to provide comprehensive services in core processes such as construction/drilling and project design, construction, implementation and maintenance.
+                        </p>
                         <div class="row">
                             <article class="pbmit-miconheading-style-13 col-md-12">
                                 <div class="pbmit-ihbox pbmit-ihbox-style-13">
@@ -61,8 +65,8 @@
                                             </div>
                                         </div>
                                         <div class="pbmit-ihbox-contents">
-                                            <h2 class="pbmit-element-title">We Are Bring Quality Services</h2>
-                                            <div class="pbmit-heading-desc">Perspiciatis unde totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</div>
+                                            <h2 class="pbmit-element-title">We Bring Quality Services</h2>
+                                            <div class="pbmit-heading-desc text-justify">We implement international best practices to strengthen our research and development to enhance the quality of our service delivery.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -76,8 +80,8 @@
                                             </div>
                                         </div>
                                         <div class="pbmit-ihbox-contents">
-                                            <h2 class="pbmit-element-title">Experienced And Talented</h2>
-                                            <div class="pbmit-heading-desc">Perspiciatis unde totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</div>
+                                            <h2 class="pbmit-element-title">Safe Work Environment</h2>
+                                            <div class="pbmit-heading-desc text-justify">We provide a safe work environment by initiating a strategy that allows us to identify, evaluate, and control potential risks and hazards related to our workplace. This reduces the risks of occupational injury and illness.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -91,8 +95,23 @@
                                             </div>
                                         </div>
                                         <div class="pbmit-ihbox-contents">
-                                            <h2 class="pbmit-element-title">Offer 24/7 Quick Support</h2>
-                                            <div class="pbmit-heading-desc">Perspiciatis unde totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</div>
+                                            <h2 class="pbmit-element-title">We Care About The Environment</h2>
+                                            <div class="pbmit-heading-desc text-justify">We ensure the effective use of natural resources to reduce the environmental impacts of our production.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="pbmit-miconheading-style-13 col-md-12">
+                                <div class="pbmit-ihbox pbmit-ihbox-style-13">
+                                    <div class="pbmit-ihbox-box d-flex align-items-start">
+                                        <div class="pbmit-ihbox-icon">
+                                            <div class="pbmit-ihbox-icon-wrapper">
+                                                <i class="pbmit-industrey-icon pbmit-industrey-icon-world"></i>
+                                            </div>
+                                        </div>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">Everyone, Everywhere</h2>
+                                            <div class="pbmit-heading-desc text-justify">We ensure a workplace that respects cultural, ethnic, social, and religious difference thereby creating an enabling environment for employee innovation and excellent task completion.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +135,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="pbmit-heading-subheading text-white">
-                        <h2 class="pbmit-title">We have twenty years of great experience of various type industries</h2>
+                        <h2 class="pbmit-title">We have twenty years of great experience of industries</h2>
                     </div>
                 </div>
             </div>
@@ -127,7 +146,7 @@
                             <div class="pbmit-sbox-icon-wrapper"><i class="fas fa-star"></i></div>
                             <div class="pbmit-fld-wrap">
                                 <h4 class="pbmit-fid-inner">
-                                    <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="6154" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">6154</span>
+                                    <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="12" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">12</span>
                                     <span class="pbmit-fid"></span>
                                 </h4>
                                 <div class="pbmit-fid-contents">
@@ -143,11 +162,11 @@
                             <div class="pbmit-sbox-icon-wrapper"><i class="fas fa-star"></i></div>
                             <div class="pbmit-fld-wrap">
                                 <h4 class="pbmit-fid-inner">
-                                    <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="1124" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">1124</span>
+                                    <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="50" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">50</span>+
                                     <span class="pbmit-fid"></span>
                                 </h4>
                                 <div class="pbmit-fid-contents">
-                                    <div class="pbmit-fid-title"><span>Great Experienced <br> Team Member</span></div>
+                                    <div class="pbmit-fid-title"><span>Experienced <br> Team Members</span></div>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +178,7 @@
                             <div class="pbmit-sbox-icon-wrapper"><i class="fas fa-star"></i></div>
                             <div class="pbmit-fld-wrap">
                                 <h4 class="pbmit-fid-inner">
-                                    <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="687" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">687</span>
+                                    <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="60" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">70</span>+
                                     <span class="pbmit-fid"></span>
                                 </h4>
                                 <div class="pbmit-fid-contents">
@@ -175,11 +194,11 @@
                             <div class="pbmit-sbox-icon-wrapper"><i class="fas fa-star"></i></div>
                             <div class="pbmit-fld-wrap">
                                 <h4 class="pbmit-fid-inner">
-                                    <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="236" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">236</span>
+                                    <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="15" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">14</span>
                                     <span class="pbmit-fid"></span>
                                 </h4>
                                 <div class="pbmit-fid-contents">
-                                    <div class="pbmit-fid-title"><span>Winning Universal <br> Five Awards</span></div>
+                                    <div class="pbmit-fid-title"><span>Universal <br> Awards</span></div>
                                 </div>
                             </div>
                         </div>
@@ -187,75 +206,82 @@
                 </div>
             </div>
             <div class="static-box-one">
-                <div class="pbmit-static-box-style-1-dots">
-                    <div class="swiper-slider pbmit-client-light" data-dots-class="pbmit-static-box-style-1-dots" data-autoplay="false" data-dots="true" data-arrows="false" data-columns="1" data-margin="30" data-effect="slide">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <!-- Slide1 -->
-                                <article class="pbmit-ele pbmit-ele-static-box pbmit-static-box-style-1">
-                                    <div class="pbmit-imgbox">
-                                    <img src="images/homepage-1-staticbox-01.jpg" alt="Design Product ">
+                <div class="pbmit-static-box-style-1-dots"></div>
+                <div class="swiper-slider pbmit-client-light" data-autoplay="false" data-dots="true" data-dots-class="pbmit-static-box-style-1-dots" data-arrows="false" data-columns="1" data-margin="30" data-effect="slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!-- Slide1 -->
+                            <article class="pbmit-ele pbmit-ele-static-box pbmit-static-box-style-1">
+                                <div class="pbmit-imgbox">
+                                    <img src="images/olympic-stadium.webp" alt="Constructed Olympic Sized Stadium" style="height: 420px; object-fit:cover;">
+                                </div>
+                                <div class="pbmit-contentbox">
+                                    <div class="pbminfotech-box-title">
+                                        <h4>Constructed Olympic Sized Stadium</h4>
                                     </div>
-                                    <div class="pbmit-contentbox">
-                                        <div class="pbminfotech-box-title">
-                                            <h4>Design Product </h4>
-                                        </div>
-                                        <div class="pbminfotech-static-box-desc">
-                                            Consectetur adipiscing elit sed do tempor labor dolore magna aliqua quis ipsum suspendisse ultrices gravida commodo.
-                                            <ul>
-                                                <li>Consectetur adipiscing elit sed</li>
-                                                <li>Do Tempor labor dolore magna</li>
-                                                <li>suspendisse ultrices Gravida</li>
-                                                <li>commodo viverra maecenas</li>
-                                            </ul>
-                                        </div>
+                                    <div class="pbminfotech-static-box-desc">
+                                        <p>
+                                            <strong><u>Project Title:</u> </strong> Construction of Olympic Standard Size Stadium at the Nigerian Maritime University, Delta State.
+                                        </p>
+                                        <p>
+                                            <strong><u>Client:</u> </strong> Nigerian Maritime Administration and
+                                            Safety Agency.
+                                        </p>
+                                        <p>
+                                            <strong><u>Date:</u> </strong> September, 2013.
+                                        </p>
                                     </div>
-                                </article>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- Slide2 -->
-                                <article class="pbmit-ele pbmit-ele-static-box pbmit-static-box-style-1">
-                                    <div class="pbmit-imgbox">
-                                    <img src="images/homepage-1-staticbox-02.jpg" alt="Fabric Product">
+                                </div>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Slide2 -->
+                            <article class="pbmit-ele pbmit-ele-static-box pbmit-static-box-style-1">
+                                <div class="pbmit-imgbox">
+                                    <img src="images/construction-plans.jpg" alt="Constructed an Amenity Ward" style="height: 420px; object-fit:cover;">
+                                </div>
+                                <div class="pbmit-contentbox">
+                                    <div class="pbminfotech-box-title">
+                                        <h4>Constructed an Amenity Ward</h4>
                                     </div>
-                                    <div class="pbmit-contentbox">
-                                        <div class="pbminfotech-box-title">
-                                            <h4>Fabric Product</h4>
-                                        </div>
-                                        <div class="pbminfotech-static-box-desc">
-                                            Consectetur adipiscing elit sed do tempor labor dolore magna aliqua quis ipsum suspendisse ultrices gravida commodo.
-                                            <ul>
-                                                <li>Consectetur adipiscing elit sed</li>
-                                                <li>Do Tempor labor dolore magna</li>
-                                                <li>suspendisse ultrices Gravida</li>
-                                                <li>commodo viverra maecenas</li>
-                                            </ul>
-                                        </div>
+                                    <div class="pbminfotech-static-box-desc">
+                                        <p>
+                                            <strong><u>Project Title:</u> </strong> Construction of Amenity Ward at Federal Medical Centre, Jalingo.
+                                        </p>
+                                        <p>
+                                            <strong><u>Client:</u> </strong> Federal Medical Centre, Jalingo.
+                                        </p>
+                                        <p>
+                                            <strong><u>Date:</u> </strong> October, 2011.
+                                        </p>
                                     </div>
-                                </article>
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- Slide3 -->
-                                <article class="pbmit-ele pbmit-ele-static-box pbmit-static-box-style-1">
-                                    <div class="pbmit-imgbox">
-                                    <img src="images/homepage-1-staticbox-03.jpg" alt="Product Info">
+                                </div>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Slide3 -->
+                            <article class="pbmit-ele pbmit-ele-static-box pbmit-static-box-style-1">
+                                <div class="pbmit-imgbox">
+                                    <img src="images/homepage-1-staticbox-03.jpg" alt="Electrifed 3 towns">
+                                </div>
+                                <div class="pbmit-contentbox">
+                                    <div class="pbminfotech-box-title">
+                                        <h4>Electrifed 3 towns</h4>
                                     </div>
-                                    <div class="pbmit-contentbox">
-                                        <div class="pbminfotech-box-title">
-                                            <h4>Product Info</h4>
-                                        </div>
-                                        <div class="pbminfotech-static-box-desc">
-                                            Consectetur adipiscing elit sed do tempor labor dolore magna aliqua quis ipsum suspendisse ultrices gravida commodo.
-                                            <ul>
-                                                <li>Consectetur adipiscing elit sed</li>
-                                                <li>Do Tempor labor dolore magna</li>
-                                                <li>suspendisse ultrices Gravida</li>
-                                                <li>commodo viverra maecenas</li>
-                                            </ul>
-                                        </div>
+                                    <div class="pbminfotech-static-box-desc">
+                                        <p>
+                                            <strong><u>Project Title:</u> </strong> Rural Electrification Projects NOS. 1-5 In Okobo L.G.A, NOS 7-14IN Oruk Anam L.G.Aand NOS 8-10 In
+                                            Obot Akara L.G.A.
+                                        </p>
+                                        <p>
+                                            <strong><u>Client:</u> </strong> Finance and General-Purpose Committee.
+                                        </p>
+                                        <p>
+                                            <strong><u>Date:</u> </strong> May, 2012.
+                                        </p>
                                     </div>
-                                </article>
-                            </div>
+                                </div>
+                            </article>
                         </div>
                     </div>
                 </div>
@@ -281,11 +307,11 @@
                         </div>
                         <div class="pbminfotech-box-content d-flex justify-content-between align-items-center">
                             <div class="pbmit-member-content">
-                                <div class="pbminfotech-box-team-position-wrap">
+                                <div class="pbminfotech-box-team-position-wrap" style="margin-bottom: 10px;">
                                     <div class="pbminfotech-box-team-position">Founder, CEO</div>
                                 </div>
                                 <h5 class="pbmit-team-title">
-                                    <a href="team-member-details.html">Justin Novak</a>
+                                    <a href="team-member-details.html">Dr. (Mrs) Aisha Achimugu</a>
                                 </h5>
                             </div>
                             <div class="pbmit-member-social">
@@ -332,10 +358,10 @@
                         <div class="pbminfotech-box-content d-flex justify-content-between align-items-center">
                             <div class="pbmit-member-content">
                                 <div class="pbminfotech-box-team-position-wrap">
-                                    <div class="pbminfotech-box-team-position">SENIOR ADVISOR</div>
+                                    <div class="pbminfotech-box-team-position">GENERAL MANAGER</div>
                                 </div>
                                 <h5 class="pbmit-team-title">
-                                    <a href="team-member-details.html">NORTON BERRY</a>
+                                    <a href="team-member-details.html">AINA SEGUN AINA</a>
                                 </h5>
                             </div>
                             <div class="pbmit-member-social">
@@ -382,7 +408,7 @@
                         <div class="pbminfotech-box-content d-flex justify-content-between align-items-center">
                             <div class="pbmit-member-content">
                                 <div class="pbminfotech-box-team-position-wrap">
-                                    <div class="pbminfotech-box-team-position">CO-FOUNDER, CEO</div>
+                                    <div class="pbminfotech-box-team-position">SENIOR ADVISOR</div>
                                 </div>
                                 <h5 class="pbmit-team-title">
                                     <a href="team-member-details.html">EDWARD SMITH

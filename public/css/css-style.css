@@ -2313,3 +2313,12 @@ textarea.form-control{
     text-overflow: ellipsis;
     white-space: normal;
 }
+
+.text-justify{
+    text-align: justify !important;
+}
+
+.about-section-1{
+    background: url(../images/homepage-1-bg-02-new.jpg);
+    background-size: cover;
+}

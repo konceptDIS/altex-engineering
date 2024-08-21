@@ -9,7 +9,7 @@
                         <div class="pbmit-footer-contact-info-inner d-flex align-items-center">
                             <i class="pbmit-industrey-icon pbmit-base-icon-time-call"></i>
                             <div class="pbmit-footer-contact-info-wrap">
-                                <span class="pbmit-label pbmit-label-2">Hot Line</span>+(123) 1234-567-8901
+                                <span class="pbmit-label pbmit-label-2">Hot Line</span>+(234) 810 388 0336
                             </div>
                         </div>
                     </div>
@@ -17,7 +17,7 @@
                         <div class="pbmit-footer-contact-info-inner d-flex align-items-center">
                             <i class="pbmit-industrey-icon pbmit-base-icon-email"></i>
                             <div class="pbmit-footer-contact-info-wrap">
-                                <span class="pbmit-label pbmit-label-2">E-mail Address</span><a href="email-protection.html" class="__cf_email__" data-cfemail="224b4c4657515650475b4b4c444d62454f434b4e0c414d4f">[email&nbsp;protected]</a>
+                                <span class="pbmit-label pbmit-label-2">E-mail Address</span><a href="email-protection.html" class="__cf_email__">info@altexengineering.net</a>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                         <div class="pbmit-footer-contact-info-inner d-flex align-items-center">
                             <i class="pbmit-industrey-icon  pbmit-base-icon-send"></i>
                             <div class="pbmit-footer-contact-info-wrap">
-                                <span class="pbmit-label pbmit-label-2">Our Location</span>23 Beverley Brooklyn, NY
+                                <span class="pbmit-label pbmit-label-2">Our Location</span>No. 6c Rudolf Close, Maitama
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                                 <div class="form-fields">
                                     <div class="pbmit-footer-newsletter">
                                         <i aria-hidden="true" class="pbmit-industrey-icon pbmit-base-icon-mailbox"></i>
-                                        <h4>Sign up for industrey alert, news &amp; inslights</h4>
+                                        <h4>Sign up for Altex Engineering, news &amp; inslights</h4>
                                         <div class="pbmit-footer-newsletter-form">
                                             <label>Email address</label>
                                             <input type="email" class="form-control" name="EMAIL" placeholder="Email address" required="">
@@ -59,10 +59,10 @@
                 </div>
                 <div class="pbmit-footer-widget-col-2 col-md-6 col-lg-3">
                     <div class="widget">
-                        <h2 class="widget-title">INDUSTREY WP THEME</h2>
+                        <h2 class="widget-title">Who we are</h2>
                         <div class="textwidget">
-                            <p>A leading developer of A-grade commercial, industrial and residential projects in USA. Since its foundation the company has doubled its turnover year on year, with its staff numbers.<br>
-                                <a class="btn-arrow" href="homepage-2.html"><span>Get a quote</span></a>
+                            <p>A versatile company that provides world-class services in Construction, Project/Facility Management and General Services.<br>
+                                <a class="btn-arrow" href="{{route('contact')}}"><span>Get a quote</span></a>
                             </p>
                         </div>
                     </div>
@@ -71,12 +71,11 @@
                     <div class="widget">
                         <h2 class="widget-title">COMPANY INFO</h2>
                         <ul class="pbmit-rpw-list">
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="about-us.html">News &amp; Media</a></li>
-                            <li><a href="project-single-details.html">Our Projects</a></li>
-                            <li><a href="our-team-member.html">Meet Our Team</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                            <li><a href="services-details.html">Careers</a></li>
+                            <li><a href="{{route('about')}}">About Us</a></li>
+                            <li><a href="{{route('services')}}">Services</a></li>
+                            {{-- <li><a href="#">Our Projects</a></li> --}}
+                            <li><a href="{{route('about')}}">Meet Our Team</a></li>
+                            <li><a href="{{route('contact')}}">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -84,9 +83,9 @@
                     <div class="widget">
                         <h2 class="widget-title">QUICK CONTACT</h2>
                         <div class="textwidget">
-                            <p>2307 Beverley Rd Brooklyn, New York 11226 United States.</p>
+                            <p>No. 6c Rudolf Close, Off Katsina Ala Crescent, Maitama, Abuja.</p>
                             <p>If you have any questions or need help, feel free to contact with our team.</p>
-                            <h3 class="footer-phone">(002) 01061245741</h3>
+                            <h3 class="footer-phone">+234 (0) 905 320 0000</h3>
                         </div>
                     </div>
                 </div>
@@ -101,20 +100,20 @@
                         <div class="menu-quick-links-container">
                             <ul id="pbmit-footer-menu" class="pbmit-footer-menu">
                                 <li class="menu-item menu-item-type-custom">
-                                    <a href="contact-us.html">Where to Find Us</a>
+                                    <a href="{{route('contact')}}">Where to Find Us</a>
                                 </li>
                                 <li class="menu-item menu-item-type-custom">
-                                    <a href="contact-us.html">Terms of Payment</a>
+                                    <a href="{{route('contact')}}">Terms of Payment</a>
                                 </li>
                                 <li class="menu-item menu-item-type-custom">
-                                    <a href="contact-us.html">Stats Element</a>
+                                    <a href="{{route('contact')}}">Stats Element</a>
                                 </li>
                             </ul>
-                            Copyright &copy; 2022 <a href="index.html">Industrey Demo1</a>, All Rights Reserved.
+                            Copyright &copy; 2024 <a href="index.html">Altex Engineering</a>, All Rights Reserved.
                         </div>
                     </div>
                     <div class="pbmit-footer-copyright-box pbmit-footer-copyright-box-2 col-md-6 col-lg-3">
-                        <img class="img-fluid" src="images/images-footer-logo.png" alt="">
+                        <img class="img-fluid" src="images/white-logo.png" alt="">
                     </div>
                     <div class="pbmit-footer-copyright-box pbmit-footer-copyright-text col-md-12 col-lg-4">
                         <ul class="pbmit-social-links">

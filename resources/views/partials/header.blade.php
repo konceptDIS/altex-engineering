@@ -82,9 +82,9 @@
                                                     <a href="{{route('about')}}">About Us</a>
                                                 </li>
                                                 <li class="{{$activePage == 'Services' ? 'active' : ''}}">
-                                                    <a href="{{route('about')}}">Services</a>
+                                                    <a href="{{route('services')}}">Services</a>
                                                 </li>
-                                                <li class="dropdown">
+                                                {{-- <li class="dropdown">
                                                     <a href="#">Projects</a>
                                                     <ul>
                                                         <li><a href="project-style-1.html">Project Style 1</a></li>
@@ -92,8 +92,10 @@
                                                         <li><a href="project-style-3.html">Project Style 3</a></li>
                                                         <li><a href="project-single-details.html">Project Single Details</a></li>
                                                     </ul>
+                                                </li> --}}
+                                                <li class="{{$activePage == 'Contact' ? 'active' : ''}}">
+                                                    <a href="{{route('contact')}}">Contact Us</a>
                                                 </li>
-                                                <li><a href="{{route('contact')}}">Contact Us</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -150,7 +152,7 @@
                         <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-thumb="revolution/images/slider01-img1-new-50x100.jpg" data-in="o:0;" data-out="a:false;">
                             <img src="images/bg-1.png" alt="" title="slider01-img1-new" width="1920" height="820" class="rev-slidebg tp-rs-img" data-bg="p:right top;" data-no-retina>
                             <!--
-                            --><rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:-145px,-156px,-110px,-81px;" data-text="w:normal;s:24,22,20,18;l:24,19,20,18;ls:5px,4px,3px,1px;fw:500;a:center;" data-frame_0="y:50,41,31,19;" data-frame_1="st:1150;sp:1000;sR:1150;" data-frame_999="o:0;st:w;sR:6850;" style="z-index:8;font-family:'Teko';text-transform:uppercase;">industrial businesses is our passion
+                            --><rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:-145px,-156px,-110px,-81px;" data-text="w:normal;s:24,22,20,18;l:24,19,20,18;ls:5px,4px,3px,1px;fw:500;a:center;" data-frame_0="y:50,41,31,19;" data-frame_1="st:1150;sp:1000;sR:1150;" data-frame_999="o:0;st:w;sR:6850;" style="z-index:8;font-family:'Teko';text-transform:uppercase;">Construction, Engineering, Alternative Energy Solutions
                             </rs-layer><!--
 
                             --><rs-layer id="slider-1-slide-1-layer-2" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:12px,-25px,-1px,-7px;" data-text="w:normal;s:250,210,160,100;l:250,210,160,100;ls:30px,24px,18px,11px;fw:600;a:center;" data-frame_0="x:50,41,31,19;" data-frame_1="st:1840;sp:1000;sR:1840;" data-frame_999="o:0;st:w;sR:6160;" style="z-index:9;font-family:'Teko';text-transform:uppercase;">Quality
@@ -159,14 +161,14 @@
                             --><a id="slider-1-slide-1-layer-4" class="rs-layer rev-button rev-btn" href="{{route('contact')}}" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:c;y:m;yo:200px,132px,101px,74px;" data-text="w:normal;s:18;l:60,55,55,50;ls:1px,1px,1px,0px;fw:500;a:center;" data-dim="minh:0px,none,none,none;" data-padding="t:4,5,5,5;r:50,42,40,35;l:50,42,40,35;" data-border="bor:0px,25px,0px,0px;" data-frame_0="y:50,41,31,19;" data-frame_1="st:3120;sp:1000;sR:3120;" data-frame_999="o:0;st:w;sR:4880;" data-frame_hover="bgc:#111010;boc:#111010;bor:0px,25px,0px,0px;" style="z-index:11;background-color:#ffba07;font-family:'Teko';text-transform:uppercase;"><span>Contact Us</span>
                             </a><!--
 
-                            --><rs-layer id="slider-1-slide-1-layer-7" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:126px,66px,50px,30px;" data-text="w:normal;s:36,32,24,14;l:40,32,24,14;ls:7px,5px,3px,1px;fw:700;a:center;" data-vbility="t,t,f,f" data-frame_0="y:50,41,31,19;" data-frame_1="st:2410;sp:1000;sR:2410;" data-frame_999="o:0;st:w;sR:5590;" style="z-index:10;font-family:'Yantramanav';">Is A Reproduction Of You.
+                            --><rs-layer id="slider-1-slide-1-layer-7" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:126px,66px,50px,30px;" data-text="w:normal;s:36,32,24,14;l:40,32,24,14;ls:7px,5px,3px,1px;fw:700;a:center;" data-vbility="t,t,f,f" data-frame_0="y:50,41,31,19;" data-frame_1="st:2410;sp:1000;sR:2410;" data-frame_999="o:0;st:w;sR:5590;" style="z-index:10;font-family:'Yantramanav';">Is what we deliver to you.
                             </rs-layer><!--
                         -->
                         </rs-slide>
                         <rs-slide style="position: absolute;" data-key="rs-20" data-title="Slide" data-thumb="revolution/images/slider01-img2-50x100.jpg" data-in="o:0;" data-out="a:false;">
                             <img src="images/images-slider01-img2.jpg" alt="" title="slider01-img2" width="1920" height="820" class="rev-slidebg tp-rs-img" data-bg="p:right top;" data-no-retina>
                             <!--
-                            --><rs-layer id="slider-1-slide-20-layer-1" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:-145px,-156px,-110px,-81px;" data-text="w:normal;s:24,22,20,18;l:24,19,20,18;ls:5px,4px,3px,1px;fw:500;a:center;" data-frame_0="y:50,41,31,19;" data-frame_1="st:1150;sp:1000;sR:1150;" data-frame_999="o:0;st:w;sR:6850;" style="z-index:8;font-family:'Teko';text-transform:uppercase;">industrial businesses is our passion
+                            --><rs-layer id="slider-1-slide-20-layer-1" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:-145px,-156px,-110px,-81px;" data-text="w:normal;s:24,22,20,18;l:24,19,20,18;ls:5px,4px,3px,1px;fw:500;a:center;" data-frame_0="y:50,41,31,19;" data-frame_1="st:1150;sp:1000;sR:1150;" data-frame_999="o:0;st:w;sR:6850;" style="z-index:8;font-family:'Teko';text-transform:uppercase;">Construction, Engineering, Alternative Energy Solutions
                             </rs-layer><!--
 
                             --><rs-layer id="slider-1-slide-20-layer-2" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:12px,-25px,-1px,-7px;" data-text="w:normal;s:250,210,160,100;l:250,210,160,100;ls:30px,24px,18px,11px;fw:600;a:center;" data-frame_0="x:50,41,31,19;" data-frame_1="st:1840;sp:1000;sR:1840;" data-frame_999="o:0;st:w;sR:6160;" style="z-index:9;font-family:'Teko';text-transform:uppercase;">Quality
@@ -175,14 +177,14 @@
                             --><a id="slider-1-slide-20-layer-4" class="rs-layer rev-button rev-btn" href="{{route('contact')}}" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:c;y:m;yo:198px,132px,102px,69px;" data-text="w:normal;s:18;l:60,55,50,45;ls:1px,1px,1px,0px;fw:300;a:center;" data-dim="minh:0px,none,none,none;" data-padding="t:4,5,3,4;r:50,42,40,35;l:50,42,40,35;" data-border="bor:0px,25px,0px,0px;" data-frame_0="y:50,41,31,19;" data-frame_1="st:3120;sp:1000;sR:3120;" data-frame_999="o:0;st:w;sR:4880;" data-frame_hover="bgc:#111010;boc:#111010;bor:0px,25px,0px,0px;" style="z-index:11;background-color:#ffba07;font-family:'Teko';text-transform:uppercase;"><span>Contact Us</span>
                             </a><!--
 
-                            --><rs-layer id="slider-1-slide-20-layer-7" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:127px,66px,50px,30px;" data-text="w:normal;s:36,32,24,14;l:40,32,24,14;ls:7px,5px,3px,1px;fw:700;a:center;" data-vbility="t,t,f,f" data-frame_0="y:50,41,31,19;" data-frame_1="st:2410;sp:1000;sR:2410;" data-frame_999="o:0;st:w;sR:5590;" style="z-index:10;font-family:'Yantramanav';">Is A Reproduction Of You.
+                            --><rs-layer id="slider-1-slide-20-layer-7" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:127px,66px,50px,30px;" data-text="w:normal;s:36,32,24,14;l:40,32,24,14;ls:7px,5px,3px,1px;fw:700;a:center;" data-vbility="t,t,f,f" data-frame_0="y:50,41,31,19;" data-frame_1="st:2410;sp:1000;sR:2410;" data-frame_999="o:0;st:w;sR:5590;" style="z-index:10;font-family:'Yantramanav';">Is what we deliver to you.
                             </rs-layer><!--
                         -->
                         </rs-slide>
                         <rs-slide style="position: absolute;" data-key="rs-21" data-title="Slide" data-thumb="revolution/images/slider01-img3-50x100.jpg" data-in="o:0;" data-out="a:false;">
                             <img src="images/bg-3.jpeg" alt="" title="slider01-img3" width="1920" height="820" class="rev-slidebg tp-rs-img" data-bg="p:right top;" data-no-retina>
                             <!--
-                            --><rs-layer id="slider-1-slide-21-layer-1" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:-145px,-156px,-110px,-81px;" data-text="w:normal;s:24,22,20,18;l:24,19,20,18;ls:5px,4px,3px,1px;fw:500;a:center;" data-frame_0="y:50,41,31,19;" data-frame_1="st:1150;sp:1000;sR:1150;" data-frame_999="o:0;st:w;sR:6850;" style="z-index:8;font-family:'Teko';text-transform:uppercase;">industrial businesses is our passion
+                            --><rs-layer id="slider-1-slide-21-layer-1" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:-145px,-156px,-110px,-81px;" data-text="w:normal;s:24,22,20,18;l:24,19,20,18;ls:5px,4px,3px,1px;fw:500;a:center;" data-frame_0="y:50,41,31,19;" data-frame_1="st:1150;sp:1000;sR:1150;" data-frame_999="o:0;st:w;sR:6850;" style="z-index:8;font-family:'Teko';text-transform:uppercase;">Construction, Engineering, Alternative Energy Solutions
                             </rs-layer><!--
 
                             --><rs-layer id="slider-1-slide-21-layer-2" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:12px,-25px,-1px,-7px;" data-text="w:normal;s:250,210,160,100;l:250,210,160,100;ls:30px,24px,18px,11px;fw:600;a:center;" data-frame_0="x:50,41,31,19;" data-frame_1="st:1840;sp:1000;sR:1840;" data-frame_999="o:0;st:w;sR:6160;" style="z-index:9;font-family:'Teko';text-transform:uppercase;">Quality
@@ -191,7 +193,7 @@
                             --><a id="slider-1-slide-21-layer-4" class="rs-layer rev-button rev-btn" href="{{route('contact')}}" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:c;y:m;yo:198px,132px,102px,69px;" data-text="w:normal;s:18;l:60,55,50,45;ls:1px,1px,1px,0px;fw:300;a:center;" data-dim="minh:0px,none,none,none;" data-padding="t:4,5,3,4;r:50,42,40,35;l:50,42,40,35;" data-border="bor:0px,25px,0px,0px;" data-frame_0="y:50,41,31,19;" data-frame_1="st:3120;sp:1000;sR:3120;" data-frame_999="o:0;st:w;sR:4880;" data-frame_hover="bgc:#111010;boc:#111010;bor:0px,25px,0px,0px;" style="z-index:11;background-color:#ffba07;font-family:'Teko';text-transform:uppercase;"><span>Contact Us</span>
                             </a><!--
 
-                            --><rs-layer id="slider-1-slide-21-layer-7" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:127px,66px,50px,30px;" data-text="w:normal;s:36,32,24,14;l:40,32,24,14;ls:7px,5px,3px,1px;fw:700;a:center;" data-vbility="t,t,f,f" data-frame_0="y:50,41,31,19;" data-frame_1="st:2410;sp:1000;sR:2410;" data-frame_999="o:0;st:w;sR:5590;" style="z-index:10;font-family:'Yantramanav';">Is A Reproduction Of You.
+                            --><rs-layer id="slider-1-slide-21-layer-7" data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:127px,66px,50px,30px;" data-text="w:normal;s:36,32,24,14;l:40,32,24,14;ls:7px,5px,3px,1px;fw:700;a:center;" data-vbility="t,t,f,f" data-frame_0="y:50,41,31,19;" data-frame_1="st:2410;sp:1000;sR:2410;" data-frame_999="o:0;st:w;sR:5590;" style="z-index:10;font-family:'Yantramanav';">Is what we deliver to you.
                             </rs-layer><!--
                         -->
                         </rs-slide>
